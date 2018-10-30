@@ -1,0 +1,4 @@
+var myArray = ["You cannot end a problem with the same thinking you used to create them. -- Albert Estein", "Life is like being at a dentist, you always think that the worst is still to come and yet it's over already. --Bismark", "He who has a WHY to live for can bear with almost any HOW. --Nietzsche", "That which does not kill you makes you stronger. --Nietzsche", "Beware of advice-even this. --Carl Sandrug", "Style is to froget all styles. --Jules Renard", "Do not have dreams but goals. --Harvey Specter", "If you back is against a wall, break the god damaned wall down. --Harvey Specter"];
+function myFunction() {
+   var rand = myArray[Math.floor(Math.random() * myArray.length)]; document.getElementById("demo").innerHTML = rand;
+}

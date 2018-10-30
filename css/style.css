@@ -1,0 +1,16 @@
+body {
+	background-image: url("http://cdn.crunchify.com/wp-content/uploads/2013/03/Crunchify.bg_.300.png");
+  padding-top: 80px;
+}
+.Position {
+	text-align : center;
+	color : black;
+}
+.pad{
+	padding: 32px;
+  font-size: 45px;
+  font-family: monospace;
+}
+.lPosition{
+  margin-top:150px;
+}
